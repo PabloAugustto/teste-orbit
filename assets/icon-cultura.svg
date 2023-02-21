@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="65" viewBox="0 0 166 65">
+  <g id="icon-cultura" transform="translate(-145 -1062)">
+    <g id="logo">
+      <path id="nome" d="M36.939,38.628A6.943,6.943,0,1,1,30,31.727a6.921,6.921,0,0,1,6.943,6.9m23.061,0A29.841,29.841,0,0,0,37.681,9.83a7.734,7.734,0,0,1-15.369,0,29.833,29.833,0,1,0,37.681,28.8" transform="translate(145 1058.556)" fill="#231f20"/>
+      <path id="elipse" d="M40.311,21.86a5.22,5.22,0,1,0-5.221-5.22,5.221,5.221,0,0,0,5.221,5.22" transform="translate(134.685 1050.58)" fill="#ff0a6b"/>
+    </g>
+    <text id="cultura" transform="translate(220 1103.5)" fill="#231f20" font-size="22" font-family="SegoeUI, Segoe UI" letter-spacing="-0.01em"><tspan x="0" y="0">CULTURA</tspan></text>
+  </g>
+</svg>

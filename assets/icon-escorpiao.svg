@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon-escorpiao" transform="translate(0 0)">
+    <g id="Boundary" transform="translate(0 0)" fill="#ff0a6b" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="40" height="40" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+    </g>
+    <path id="Path_zodiac-scorpio" data-name="Path / zodiac-scorpio" d="M27.52,23.486l-2.367,2.367L27.32,28H24.67a3.334,3.334,0,0,1-3.334-3.334V8A4.979,4.979,0,0,0,13,4.3a5,5,0,0,0-6.668,0A4.955,4.955,0,0,0,3,3V6.334A1.667,1.667,0,0,1,4.667,8V24.67H8V8a1.667,1.667,0,0,1,3.334,0V24.67h3.334V8A1.667,1.667,0,1,1,18,8V24.67a6.668,6.668,0,0,0,6.668,6.668h2.65l-2.167,2.15,2.367,2.367,6.168-6.184Z" transform="translate(2.003 0.329)" fill="#ff0a6b"/>
+  </g>
+</svg>

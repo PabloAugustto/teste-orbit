@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="52" viewBox="0 0 70 52">
+  <g id="icon-previsaoTempo" transform="translate(1 1)">
+    <line id="Linha_18" data-name="Linha 18" y2="5.207" transform="translate(20.554 36.459)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linha_19" data-name="Linha 19" y2="5.207" transform="translate(9.784 31.883) rotate(45)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linha_20" data-name="Linha 20" y2="5.207" transform="translate(5.207 20.833) rotate(90)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linha_21" data-name="Linha 21" y2="5.207" transform="translate(9.784 9.782) rotate(135)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linha_22" data-name="Linha 22" y1="5.207" transform="translate(20.554 0)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linha_23" data-name="Linha 23" y2="5.207" transform="translate(31.43 9.782) rotate(-135)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linha_24" data-name="Linha 24" y2="5.207" transform="translate(35.931 20.833) rotate(-90)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linha_25" data-name="Linha 25" y2="5.207" transform="translate(31.43 31.883) rotate(-45)" fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Elipse_7" data-name="Elipse 7" cx="8.678" cy="8.678" r="8.678" transform="translate(11.936 12.154)" fill="orange" stroke="orange" stroke-width="2"/>
+    <path id="Caminho_95" data-name="Caminho 95" d="M71.022,45.625A14.186,14.186,0,0,0,56.789,31.392a15.059,15.059,0,0,0-4.86.868,11.556,11.556,0,0,0-23.085.868,14.787,14.787,0,0,0,.694,3.992,5.9,5.9,0,0,0-1.736-.174A11.63,11.63,0,0,0,27.456,60.2H57.31A15,15,0,0,0,71.022,45.625Z" transform="translate(-3.022 -10.205)" fill="#57a0ee" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

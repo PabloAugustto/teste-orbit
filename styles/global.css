@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'PacaembuLight';
+  src: url(../fonts/Pacaembu-Light-Trial.ttf);
+}
+
+@font-face {
+  font-family: 'PacaembuRegular';
+  src: url(../fonts/Pacaembu-Regular-Trial.ttf);
+}
+
+@font-face {
+  font-family: 'PacaembuMedium';
+  src: url(../fonts/Pacaembu-Medium-Trial.ttf);
+}
+
+@font-face {
+  font-family: 'PacaembuBold';
+  src: url(../fonts/Pacaembu-Bold-Trial.ttf);
+}
+
+@font-face {
+  font-family: 'PacaembuBlack';
+  src: url(../fonts/Pacaembu-Black-Trial.ttf);
+}
+
+@font-face {
+  font-family: 'PacaembuUltra';
+  src: url(../fonts/Pacaembu-Ultra-Trial.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FAFAFA;
+  color: #231F20;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'PacaembuRegular';
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #231F20;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 74rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}

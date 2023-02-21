@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon-sagitario" transform="translate(0)">
+    <g id="Boundary" transform="translate(0)" fill="#ff0a6b" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="40" height="40" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+    </g>
+    <path id="Path_zodiac-sagittarius" data-name="Path / zodiac-sagittarius" d="M35.14,2V18.667H31.807V7.683L15.823,23.667l3.833,3.817L17.29,29.85l-3.817-3.833L4.657,34.85,2.29,32.483l8.833-8.817L7.29,19.85l2.367-2.367,3.817,3.833L29.457,5.333H18.473V2Z" transform="translate(1.631 1.333)" fill="#ff0a6b"/>
+  </g>
+</svg>

@@ -1,0 +1,1386 @@
+/* GERAL */
+  .elementos-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.938rem;
+  }
+
+ .categoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.125rem;
+  height: 18px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+ }
+
+ .categoria p {
+  font-size: .5rem;
+  font-family: 'PacaembuMedium';
+  color: #fff;
+  text-transform: uppercase;
+ }
+
+ .share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.313rem;
+  height: 18px;
+  font-family: 'PacaembuMedium';
+  font-size: .5rem;
+  color: #fff;
+  background-color: #FF0A6B;
+  border-radius: 20px;
+ }
+
+ .share i {
+  margin-right: 4px;
+  vertical-align: middle;
+ }
+
+.subtitle-com-marcacao {
+   font-family: 'PacaembuMedium';
+   font-size: 0.75rem;
+   text-transform: uppercase;
+   color: #FAFAFA;
+ }
+
+ .subtitle-com-marcacao::before {
+   content: '';
+   display: inline-block;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   background-color: #FF0A6B;
+   margin-right: 5px;
+ }
+
+ strong.subtitle {
+   font-family: 'PacaembuBold';
+   font-size: 0.625rem;
+   color: #FF0A6B;
+   text-transform: uppercase;
+   margin-bottom: 4px;
+ }
+
+ .ga-retangulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15.625rem;
+  background-color: #ECECEC;
+  border-radius: 20px;
+ }
+
+/* HEADER */
+
+header {
+  margin-top: 1.875rem;
+}
+
+header .primeira-linha {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .primeira-linha .menu-hamburguer button {
+  border: 0;
+  cursor: pointer;
+}
+
+header .primeira-linha .menu-hamburguer button span {
+  display: block;
+  position: relative;
+  width: 13px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+header .primeira-linha .menu-hamburguer button span::after, header .primeira-linha .menu-hamburguer button span::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 3px;
+  background-color: #000;
+}
+
+header .primeira-linha .menu-hamburguer button span::after {
+  top: 6px;
+  width: 8px;
+}
+
+header .primeira-linha .menu-hamburguer button span::before {
+  bottom: 6px;
+  width: 17px;
+}
+
+.logo {
+  position: absolute;
+  left: calc(50% - 90px);
+}
+
+header .primeira-linha div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+header .primeira-linha div:first-child a  {
+  display: flex;
+  width: 7rem;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-size: 0.688rem;
+
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+
+  border-radius: 23px;
+}
+header .primeira-linha div a + a {
+  margin-left: 0.938rem;
+}
+
+header .primeira-linha div a i {
+  margin-right: 12px;  
+  vertical-align: middle;
+}
+
+header .primeira-linha .input-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 14.125rem;
+}
+
+header .primeira-linha .input-search input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  border: 0;
+  border-radius: 23px;
+  color: #231F20;
+
+  padding-left: 15px;
+  padding-right: 50px;
+}
+
+header .primeira-linha .input-search a {
+  display: block;
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 22px;
+}
+
+header .segunda-linha {
+  margin-top: 2.813rem;
+}
+
+header .segunda-linha nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .segunda-linha nav ul li a {
+  color: #726F73;
+  transition: color .2s;
+}
+
+header .segunda-linha nav ul li a:hover {
+  color: #000
+}
+
+header .segunda-linha .link-selecionado {
+  border-bottom: 3px solid #FF0A6B;
+  padding-bottom: 18px;
+}
+
+header .segunda-linha .link-selecionado a {
+  color: #000;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.ga-retangulo.mobile {
+  display: none;
+}
+
+/* Stories mobile carousel */
+section.stories-mobile-carousel {
+  display: none;
+}
+
+/* Banner */
+
+.banner {
+  display: block;
+  position: relative;
+  background: url(../assets/banner.jpg) no-repeat center center;  
+  background-size: cover;
+  height: 521px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.banner > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.banner-content {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 74rem;
+  padding: 0 1rem;
+  bottom: 2.188rem;
+}
+
+.banner-content h1 {
+  font-family: 'PacaembuBold';
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  margin-bottom: 1.563rem;
+}
+
+.banner-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.875rem;
+}
+
+.banner-details p {
+  font-family: 'PacaembuRegular';
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.banner-details.mobile {
+  display: none;
+}
+
+/* Noticias */
+
+.noticias {
+  display: block;
+  height: 412px;
+}
+
+.noticias .noticias-content-mobile {
+  display: none;
+}
+
+.noticias > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.noticias .noticias-carousel {
+  display: block;
+  position: relative;
+  width: 792px;
+  border-radius: 15px;
+}
+
+.noticias .noticias-carousel-1, .noticias .noticias-carousel-2, .noticias .noticias-carousel-3 {
+  background: url(../assets/photo-vacinacao.jpg) no-repeat center center;
+  background-size: cover;
+  height: 412px;
+  padding: 0 15px;
+}
+
+.noticias .noticias-carousel-content {
+  position: absolute;
+  width: 792px;
+  bottom: 2.594rem;
+}
+
+.noticias .noticias-carousel-content h2 {
+  font-size: 1.75rem;
+  color: #FAFAFA;
+}
+
+.noticias .noticias-metro {
+  display: block;
+  position: relative;
+  background: url(../assets/photo-metro.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 15px;
+  width: 39.2%;
+  height: 412px;
+  padding: 0 16px;
+}
+
+.noticias-metro-content {
+  position: absolute;
+  bottom: 2.594rem;
+}
+
+.noticias-metro-content h2 {
+  font-size: 1.125rem;
+  color: #FAFAFA;
+  word-break: break-word;
+}
+
+/* GA Quadrado */
+.ga-quadrado-mobile {
+  display: none;
+}
+
+.strangerThings-mobile {
+  display: none;
+}
+
+/* Cinema */
+.cinema {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.cinema-content {
+ display: flex;
+ justify-content: space-between; 
+ gap: 1.5rem;
+}
+
+.cinema-sem-foto {
+  display: flex;
+  min-width: auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cinema-sem-foto p {
+  font-size: .875rem; 
+}
+
+
+.cinema-com-foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+ .cinema-com-foto > div {
+  display: flex;
+  align-items: start;
+}
+
+ .cinema-com-foto > div img {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+ .cinema-com-foto p {
+  font-size: 0.875rem;
+}
+
+ .cinema-com-foto div div strong {
+  margin-bottom: 6px;
+}
+
+.cinema-content .loto-e-previsao {
+  display: block;
+  width: 24rem;
+}
+
+.cinema-content .loto-e-previsao .lotomania {
+  background-color: #fff;
+  border: 1px solid #F9F9F9;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  padding: 20px 20px;
+}
+
+.cinema-content .loto-e-previsao .lotomania h2 {
+  font-family: 'PacaembuBold';
+  font-size: 0.75rem;
+  color: #231F20;
+  margin-bottom: 3px;
+}
+
+.cinema-content .loto-e-previsao .lotomania p {
+  font-family: 'PacaembuMedium';
+  font-size: 0.625rem;
+  color: #726F73;
+  opacity: .75;
+}
+
+.cinema-content .loto-e-previsao .lotomania .lotomania-carousel-content {
+  margin-top: 15px;
+}
+
+.cinema-content .loto-e-previsao .lotomania .lotomania-carousel-content ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.cinema-content .loto-e-previsao .lotomania .lotomania-carousel-content ul li {
+  margin-bottom: 15px;
+}
+
+.cinema-content .loto-e-previsao .lotomania .lotomania-carousel-content ul li span {
+  display: block;
+  font-family: 'PacaembuBold';
+  font-size: 0.75rem;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  background: #F6650C;
+  line-height: 1.75rem;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.cinema-content .loto-e-previsao .previsao-tempo {
+  display: flex;
+  margin-top: 1.563rem;
+  background-color: #fff;
+  border: 1px solid #F9F9F9;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  padding: 15px 20px 17px;
+  gap: 17px;
+}
+.cinema-content .loto-e-previsao .previsao-tempo div:first-child {
+  width: 7.75rem;
+}
+
+.cinema-content .loto-e-previsao .previsao-tempo h3 {
+  font-family: 'PacaembuBold';
+  font-size: 0.75rem;
+  color: #231F20;
+  margin-top: 5px;
+}
+
+.cinema-content .loto-e-previsao .previsao-tempo p {
+  font-family: 'PacaembuMedium';
+  font-size: 0.625rem;
+  color: #726F73;
+  margin-top: 4px;
+}
+
+.cinema-content .loto-e-previsao .previsao-tempo strong {
+  font-family: 'PacaembuBold';
+  font-size: 0.625rem;
+  color: #FFA500;
+  margin-bottom: 1px;
+}
+
+.cinema-content .loto-e-previsao .previsao-tempo span {
+  display: block;
+  font-weight: 700;
+  font-size: 1.875rem;
+  color: #231F20;
+}
+
+/* Copa mobile */
+.copa2022-mobile {
+  display: none;
+}
+/* Orbit TV */
+
+.orbi-tv {
+  display: block;
+  background: url(../assets/bg-section-videos.jpg) no-repeat right center;
+  background-size: cover;
+  padding: 25px 0 42px;
+}
+
+.orbi-tv .orbi-tv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.563rem;
+}
+
+.orbi-tv .orbi-tv-header img {
+  height: 65px;
+}
+
+.orbi-tv .orbi-tv-header button {
+  display: inline-block;
+  margin-left: 10px;
+  height: 34px;
+  width: 84px;
+  background-color: transparent;
+  border: 1px solid #726F73;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #726F73;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.orbi-tv .orbi-tv-header button.active {
+  border-color: #FF0A6B;
+  background-color: #FF0A6B;
+  color: #FAFAFA;
+}
+
+.orbi-tv .orbi-tv-carousel {
+  max-width: 74rem;
+}
+
+.orbi-tv .orbi-tv-carousel iframe {
+  height: 16.125rem;
+  border-radius: 25px;
+}
+
+.orbi-tv .orbi-tv-carousel iframe + iframe {
+  margin-left: 20px;
+}
+
+.orbi-tv .cta-orbitv {
+  font-size: .875rem;
+  color: #FAFAFA;
+}
+
+.orbi-tv .cta-orbitv i {
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+/* + Lidas */
+
+.mais-lidas {
+  padding: 25px 30px 39px;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 1px solid #F9F9F9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+}
+
+.mais-lidas h2 {
+  font-family: 'PacaembuUltra';
+  font-weight: 200;
+  font-size: 1.375rem;
+  color: #231F20;
+  margin-bottom: 27px;
+}
+
+.mais-lidas .mais-lidas-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 23px;
+}
+
+.mais-lidas .mais-lidas-content div {
+  display: flex;
+}
+
+.mais-lidas .mais-lidas-content div span {
+  display: block;
+  font-family: 'Barlow';
+  font-size: 1.438rem;
+  color: #FF0A6B;
+  padding-inline: 1.406rem;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #F3F3F3;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 2.876rem;
+}
+
+.mais-lidas .mais-lidas-content div p {
+  font-size: 0.75rem;
+  color: #231F20;
+}
+
+/* Cinema Mobile */
+
+.cinema-mobile {
+  display: none;
+}
+
+/* Temperatura e Lotomania Mobile  */
+.previsao-lotomania-mobile {
+  display: none;
+}
+
+ /* Copa 2022 */
+ .copa2022 {
+   margin-top: 24px;
+ }
+
+ .copa2022 .logo-copa2022 {
+   margin-inline: auto;
+ }
+
+ .copa2022 .copa2022-carousel {
+   margin-top: 20px;
+  }
+
+  .copa2022 .copa2022-carousel > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 74rem;
+  }
+  
+  .copa2022 .copa2022-carousel .bg-copa {
+    display: block;
+    position: relative;
+    height: 17.125rem !important;
+    min-width: 17.625rem !important;
+    background-size: cover;
+    padding: 0 15px;
+ }
+
+ .copa2022 .copa2022-carousel .copa01 {
+  background: url(../assets/photo-photo1.jpg) no-repeat center center;
+ }
+
+ .copa2022 .copa2022-carousel .copa02 {
+   background: url(../assets/photo-photo2.jpg) no-repeat center center;
+ }
+
+ .copa2022 .copa2022-carousel .copa03 {
+   background: url(../assets/photo-photo3.jpg) no-repeat center center;
+ }
+
+ .copa2022 .copa2022-carousel .copa04 {
+   background: url(../assets/photo-photo4.jpg) no-repeat center center;
+ }
+
+ .copa2022 .copa2022-carousel span {
+  font-size: 1rem;
+  color: #FAFAFA;
+ }
+
+ .copa2022 .copa2022-carousel .copa-noticias {
+  position: absolute;
+  bottom: 45px;
+  width: 90%;
+ }
+
+ /* Colunas e NewsLetter */
+
+ .colunas-mobile {
+  display: none;
+ }
+
+ .colunas-newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 24px;
+  gap: 24px;
+ }
+
+  .colunas > img {
+    margin-bottom: 25px;
+  }
+
+  .colunas-carousel {
+    width: 22rem;
+  }
+
+ .colunas-carousel-content > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+ }
+
+ .colunas-carousel-content > div img {
+  margin-right: 20px;
+ }
+
+ .colunas-carousel-content > div strong {
+  font-family: 'PacaembuBold';
+  font-size: 1.125rem;
+  margin-bottom: 5px;
+ }
+
+ .colunas-carousel-content > div p {
+  font-size: .875rem;
+ }
+
+ .ga-quadrado {
+  display: flex;
+  min-width: 22rem;
+  height: 32.563rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #ECECEC;
+ }
+
+ .ga-quadrado a img {
+  width: 15.605rem;
+ }
+
+ .newsletter-content {
+  background: #F3F3F3;
+  border-radius: 15px;
+  padding: 22px 24px;
+ }
+
+ .newsletter-content strong  {
+  margin-bottom: 11px;
+ }
+
+ .newsletter-content h2 {
+  font-family: 'PacaembuBold';
+  font-size: 1.625rem;
+  margin-bottom: 4px;
+ }
+
+ .newsletter-content > p {
+  font-size: .875rem;
+ }
+
+ .newsletter-content form {
+  margin-top: 20px;
+  position: relative;
+ }
+
+ .newsletter-content form input {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 22px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  padding: 0 30px;
+  font-size: 0.625em;
+  color: #727272;
+ }
+
+ .newsletter-content form input::placeholder {
+  font-size: 0.625rem;
+  color: #727272;
+ }
+
+ .newsletter-content form button {
+  position: absolute;
+  right: 5px;
+  border: 0;
+  border-radius: 20px;
+  width: 36px;
+  height: 36px;
+  background-color: #D6D6D6;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  cursor: pointer;
+  margin-top: -40px;
+ }
+
+ .newsletter-content form p {
+  font-family: 'PacaembuBold';
+  font-size: .875rem;
+  color: #231F20;
+  margin-block: 10px;
+  text-transform: uppercase;
+ }
+
+ .newsletter-content form > img {
+  display: block;
+  height: 54px;
+  margin-block: 15px;
+ }
+
+ .newsletter-content form span {
+  font-size: 0.75rem;
+  color: #FF0A6B;
+ }
+
+ .newsletter-content form span i {
+  margin-left: 40px;
+ }
+
+ .noticia-com-foto {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 24px;
+ }
+
+ .noticia-com-foto img  {
+  height: 85px;
+ }
+
+ .noticia-com-foto p {
+  font-size: .875rem;
+  color: #231F20;
+ }
+
+
+/* Horoscopo */
+.horoscopo {
+  background: #fff;
+  border: 1px solid #F9F9F9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 25px 30px 45px;
+}
+
+.horoscopo .horoscopo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.horoscopo .horoscopo-header h3 {
+  font-size: 1.375rem;
+  color: #231F20;
+}
+
+.horoscopo .horoscopo-header > div {
+  display: flex;
+  align-items: center;
+}
+
+.horoscopo .horoscopo-header > div span {
+  font-size: 0.75rem;
+  margin-right: 20px;
+}
+
+.horoscopo ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.horoscopo ul li p {
+  font-family: 'PacaembuMedium';
+  font-size: .875rem;
+  color: #231F20;
+}
+
+/* Cultura */
+.cultura {
+  margin: 24px;
+}
+.cultura > div > img {
+  margin-bottom: 44px;
+}
+
+.cultura-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.cultura-noticia-destaque {
+  display: block;
+  position: relative;
+  background: url(../assets/photo-cultura-destaque.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 15px;
+  min-width: 17rem;
+  height: 18.938rem;
+  padding: 0 16px;
+}
+
+.cultura-destaque-content {
+  position: absolute;
+  bottom: 2.594rem;
+}
+
+.cultura-destaque-content h2 {
+  font-size: 1.125rem;
+  color: #FAFAFA;
+  word-break: break-word;
+}
+
+.cultura .ga-quadrado {
+  height: 18.938rem;
+  min-width: 20rem;
+}
+
+.cultura .cinema-com-foto {
+  min-width: 250px;
+}
+
+/* Videos */
+
+.videos {
+  background: url(../assets/bg-videos.jpg) no-repeat right center;
+  background-size: cover;
+  padding: 25px 0 35px 0 ;
+}
+
+.videos .videos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.videos .videos-header nav ul {
+  display: flex;
+  gap: 3.875rem;
+  margin-top: 15px;
+}
+
+.videos .videos-header nav ul li.active::after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 3px;
+  background-color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.videos .videos-header nav ul li a {
+  padding: 15px 0;
+  line-height: 1.625rem;
+  font-size: 0.813rem;
+  color: #fff;
+}
+
+.videos .videos-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.videos .videos-content iframe {
+  border-radius: 10px;
+}
+
+.videos .videos-content > div > iframe {
+  height: 23.188rem;
+  width: 39.25rem;
+}
+
+.videos-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.videos-carousel-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  width: 30rem !important;
+  height: 20.5rem;
+}
+
+.videos-carousel-content iframe {
+  width: 14rem !important;
+  height: 8rem !important;
+  margin-bottom: 18px;
+  margin-right: 20px;
+}
+
+.videos-carousel h3 {
+  font-family: 'PacaembuBold';
+  font-size: 1rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+
+/* NewsLetter Mobile */
+section.newsletter-mobile {
+  display: none;
+}
+
+section.copa-resumo-mobile {
+  display: none;
+}
+
+
+/* Diversos */
+
+.diversos > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.diversos .ga-quadrado {
+  height: 18.938rem;
+  min-width: 20rem;
+}
+
+.diversos .cinema-com-foto {
+  width: 17.625rem;
+}
+
+.diversos .copa-resumo {
+  width: 30.375rem;
+  height: 18.938rem;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.diversos .copa-resumo > img {
+  height: 5.625rem;
+  margin-bottom: 1rem;
+}
+
+.diversos .copa-resumo-content h3 {
+  font-family: 'PacaembuBold';
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+.diversos .copa-resumo-content .copa-resumo-carousel > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 30.375rem;
+}
+
+.diversos .copa-resumo-content .copa-resumo-carousel > div span {
+  font-family: 'PacaembuMedium';
+  font-size: 1rem;
+  color: #343A40;
+}
+
+.diversos .copa-resumo-content .copa-resumo-carousel > div strong {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  font-family: 'PacaembuUltra';
+  font-size: 1.25rem;
+}
+
+
+.diversos .copa-resumo-content .copa-resumo-carousel p {
+  font-size: 0.75rem;
+  columns: #767676;
+}
+
+/* Orbit Mobile */
+
+section.orbit-mobile {
+  display: none;
+}
+
+/* Quadrinhos Jornal e Horoscopo */
+.quadrinhos-jornal-horoscopo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.quadrinhos { 
+  background: #F3F3F3;
+  border-radius: 15px;
+  min-width: 24rem;
+  height: 25.75rem;
+  padding: 25px;
+}
+
+.quadrinhos .quadrinhos-carousel {
+  display: block;
+  text-align: center;
+  margin: 19px auto 0 auto;
+}
+
+.quadrinhos .quadrinhos-carousel img {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  margin-bottom: 15px;
+}
+
+.quadrinhos .quadrinhos-carousel h3 {
+  display: block;
+  font-family: 'PacaembuBold';
+  font-size: 1.375rem;
+  margin-bottom: 4px;
+}
+
+.quadrinhos .quadrinhos-carousel p {
+  font-family: 'PacaembuMedium';
+  font-size: .875rem;
+}
+
+.jornal-digital {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url(../assets/bg-jornal.jpg) no-repeat center center;
+  background-size: cover;
+  min-width: 24rem;
+  height: 25.75rem;
+  padding: 25px;
+}
+
+.jornal-digital h3 {
+  font-family: 'PacaembuBold';
+  font-size: 1.375rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.quadrinhos-jornal-horoscopo {
+  min-width: 24rem;
+  height: 25.75rem;
+  padding: 25px;
+}
+
+.quadrinhos-jornal-horoscopo .horoscopo .horoscopo-header {
+  display: block;
+  text-align: center;
+}
+
+.quadrinhos-jornal-horoscopo .horoscopo .horoscopo-header h2 {
+  font-size: 1.375rem;
+}
+
+.quadrinhos-jornal-horoscopo .horoscopo .horoscopo-header div {
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.quadrinhos-jornal-horoscopo .horoscopo ul {
+  flex-wrap: wrap;
+  gap: 25px;
+  text-align: center;
+}
+
+.quadrinhos-jornal-horoscopo .horoscopo ul li {
+  margin-bottom: 0px;
+  width: 40px;
+  text-align: center;
+}
+
+.quadrinhos-jornal-horoscopo .horoscopo ul li p {
+  font-size: .75rem;
+}
+
+/* Webstories Noticia com foto e Enquete */
+
+.webstories-noticiacomfoto-enquate {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.webstories-noticiacomfoto-enquate .webstories {
+  background-color: #fff;
+  border: 1px solid #F9F9F9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  border-radius: 15px;
+  padding: 25px 30px 28px;
+}
+
+.webstories-noticiacomfoto-enquate .webstories h3 {
+  text-transform: uppercase;
+  font-family: 'PacaembuBlack';
+  font-size: 1.375rem;
+  margin-bottom: 23px;
+}
+
+.webstories-noticiacomfoto-enquate .webstories .webstories-content>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 18px;
+}
+
+.webstories-noticiacomfoto-enquate .webstories .webstories-content div img {
+  box-shadow: 0 0 0 2px #FF0A6B;
+  border: 6px solid #fff;
+  border-radius: 50%;
+}
+
+.webstories-noticiacomfoto-enquate .webstories .webstories-content div p {
+  font-family: 'PacaembuBold';
+  font-size: 1rem;
+  color: #231F20;
+}
+
+.webstories-noticiacomfoto-enquate .enquete {
+  background-color: #fff;
+  border: 1px solid #F9F9F9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+  border-radius: 15px;
+  padding: 25px 30px 28px;
+}
+
+.webstories-noticiacomfoto-enquate .enquete h3 {
+  font-family: 'PacaembuBlack';
+  font-size: 1rem;
+  color: #FF0A6B;
+  margin-bottom: 16px;
+}
+
+.webstories-noticiacomfoto-enquate .enquete p {
+  font-family: 'PacaembuBold';
+  font-size: 1.125rem;
+  color: #231F20;
+  margin-bottom: 35px;
+}
+
+.webstories-noticiacomfoto-enquate .enquete form ul li {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.webstories-noticiacomfoto-enquate .enquete form input {
+  display: none;
+}
+
+.webstories-noticiacomfoto-enquate .enquete form label {
+  font-family: 'PacaembuMedium';
+  font-size: .875rem;
+  color: #393536;
+}
+
+.webstories-noticiacomfoto-enquate .enquete form label::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #888888;
+  vertical-align: middle;
+  margin-right: 18px;
+}
+
+.webstories-noticiacomfoto-enquate .enquete form input:checked~label::before {
+  width: 10px;
+  height: 10px;
+  background-color: #FF0A6B;
+  box-shadow: 0 0 0 2px #FF0A6B;
+  border: 5px solid #fff;
+}
+
+.webstories-noticiacomfoto-enquate .enquete form button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #FF0A6B;
+  background-color: #FF0A6B;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'PacaembuBold';
+  font-size: 0.625rem;
+  cursor: pointer;
+}
+
+.noticiacomfoto-gaQuadrado-noticiadestaque-noticia-resumo {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.noticiacomfoto-gaQuadrado-noticiadestaque-noticia-resumo .ga-quadrado {
+  height: 18.938rem;
+}
+
+.noticiacomfoto-gaQuadrado-noticiadestaque-noticia-resumo .cultura-destaque-content h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.noticiacomfoto-gaQuadrado-noticiadestaque-noticia-resumo .cinema-sem-foto div p {
+  font-size: 0.75rem;
+  word-break: break-all;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.more button {
+  border: 1px solid #FF0A6B;
+  background-color: transparent;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  color: #FF0A6B;
+  padding: 13px 50px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  padding: 4.688rem 0 5.313rem 0;
+  background-color: #E9E9E9;
+  margin-top: 4.031rem;
+}
+
+footer > div > img {
+  display: block;
+  height: 4.813rem;
+  width: auto;
+  margin: 0 auto 2.844rem auto;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+  margin-bottom: 2.781rem;
+}
+
+footer .social-media a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF0A6B;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+footer .social-media a img {
+  height: 1rem;
+  width: auto;
+}
+
+footer .footer-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-menu ul li a {
+  font-size: 0.813rem;
+  color: #231F20;
+}

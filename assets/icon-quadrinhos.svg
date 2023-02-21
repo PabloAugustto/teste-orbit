@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="48.969" viewBox="0 0 206 48.969">
+  <g id="icon-quadrinhos" transform="translate(-145 -2050)">
+    <g id="editoria" transform="translate(0 981)">
+      <g id="logo" transform="translate(0 7)">
+        <path id="nome" d="M27.736,31.539a5.213,5.213,0,1,1-5.213-5.2,5.207,5.207,0,0,1,5.213,5.2m17.315,0A22.479,22.479,0,0,0,28.293,9.83a5.8,5.8,0,0,1-11.54,0A22.476,22.476,0,1,0,45.046,31.539" transform="translate(145 1056.954)" fill="#231f20"/>
+        <path id="elipse" d="M39,19.241a3.911,3.911,0,1,0-3.911-3.911A3.912,3.912,0,0,0,39,19.241" transform="translate(128.522 1050.58)" fill="#ff0a6b"/>
+      </g>
+      <text id="QUADRINHOS" transform="translate(210 1102)" fill="#231f20" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">QUADRINHOS</tspan></text>
+    </g>
+  </g>
+</svg>

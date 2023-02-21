@@ -1,0 +1,739 @@
+@media (max-width: 480px) {
+  header .primeira-linha {
+    flex-direction: row-reverse;
+  }
+
+  header .primeira-linha > div {
+    flex-direction: row-reverse;
+  }
+
+  header .primeira-linha div:first-child {
+    width: 40%;
+  }
+
+  header .primeira-linha div:first-child a {
+    min-width: 101px;
+  }
+
+  header .primeira-linha>div a:last-child {
+    display: none;
+  }
+
+  header .primeira-linha div a i {
+    margin-right: 10px;
+  }
+
+  header .primeira-linha div a i img {
+    width: 20px;
+  }
+
+  .logo {
+    position: initial;
+    width: 7.906rem;
+    height: 50px;
+  }
+
+  header .primeira-linha .menu-hamburguer {
+    margin-left: 28.5px;
+  }
+
+  header .primeira-linha .menu-hamburguer button span::after,
+  header .primeira-linha .menu-hamburguer button span::before {
+    right: 0;
+  }
+
+
+  header .primeira-linha .input-search {
+    display: none;
+  }
+
+  header .segunda-linha {
+    display: none;
+  }
+
+  /* GA Retangulo */
+
+  .ga-retangulo.mobile {
+    display: flex;
+    background-color: transparent;
+    height: auto;
+  }
+
+  .ga-retangulo.mobile img {
+    width: 100%;
+  }
+
+  /* Stories Mobile Carousel */
+  section.stories-mobile-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    section.stories-mobile-carousel div {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  section.stories-mobile-carousel div img {
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 2px #FF0A6B;
+    border-radius: 50%;
+  }
+
+  section.stories-mobile-carousel div p {
+      font-family: 'PacaembuMedium';
+      font-size: 0.563rem;
+      color: #5F5961;
+      margin-top: 5px;
+      margin-left: -33px;
+    }
+
+  /* Banner */
+
+  .banner {
+    background: url(../assets/bg-banner-mobile.jpg) no-repeat center center;
+    background-size: 100% auto;
+    margin-bottom: 14px;
+    height: 22.5rem;
+  }
+
+  .banner-content {
+    width: 100%;
+    bottom: 25.2px;
+  }
+
+  .banner-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner-details {
+    display: none;
+  }
+
+  .banner-details.mobile {
+    display: block;
+    margin-top: 14px;
+  }
+
+  .banner-details p {
+    color: #231F20;
+    margin-bottom: 17px;
+
+  }
+
+  /* Noticias */
+
+  .noticias {
+    margin-bottom: 40px !important;
+    height: auto;
+  }
+
+  .noticias-content-mobile {
+    display: block !important;
+    text-align: center;
+    margin-top: 27px;
+  }
+
+  .noticias-content-mobile strong {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: #FF0A6B;
+    border-radius: 20px;
+    color: #FAFAFA;
+    font-family: 'PacaembuMedium';
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+  }
+
+  .noticias-content-mobile h3 {
+    font-family: 'PacaembuBlack';
+    font-size: 1.5rem;
+    color: #231F20;
+    margin-bottom: 11.7px;
+  }
+
+  .noticias-content-mobile p {
+    font-family: 'PacaembuMedium';
+    font-size: .975rem;
+    color: #726F73;
+    margin-bottom: 24.5px;
+  }
+
+  .noticias .noticias-carousel {
+    width: 100%;
+  }
+
+  .noticias .noticias-carousel-1,
+  .noticias .noticias-carousel-2,
+  .noticias .noticias-carousel-3 {
+    width: 19.5rem;
+    height: 17.625rem;
+    background-size: auto 100%;
+    border-radius: 15px;
+  }
+
+  .noticias .noticias-carousel-content {
+    width: 370px;
+  }
+
+  .noticias .noticias-carousel-content h2 {
+    font-size: 1rem;
+  }
+
+  .noticias .noticias-metro {
+    display: none;
+  }
+
+  /* Stranger Things */
+  .strangerThings-mobile {
+    display: block;
+  }
+  .strangerThings-mobile .cultura-noticia-destaque {
+    background: url(../assets/bg-strangerthings-mobile.jpg) no-repeat center center;
+    background-size: auto 100%;
+    padding-top: 10px;
+  }
+
+  .strangerThings-mobile .cultura-noticia-destaque .cultura-destaque-content h2 {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  /* GA Quadrado */
+  .ga-quadrado-mobile {
+    display: block;
+    min-width: 100%;
+    margin-block: 24px;
+  }
+
+  .ga-quadrado-mobile .ga-quadrado {
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+  }
+
+  .ga-quadrado-mobile .ga-quadrado img {
+    width: 100%; 
+    height: 15.625rem;
+  }
+
+  /* Cinema */
+  .cinema .cinema-sem-foto {
+    display: none;
+  }
+
+  .cinema .loto-e-previsao {
+    display: none;
+  }
+
+  .ga-retangulo {
+    display: none;
+  }
+
+  .cinema .subtitle {
+    border: 1px solid #FF0A6B;
+    padding: 3px 9px;
+    border-radius: 20px;
+
+  }
+
+  .cinema-com-foto p {
+    padding-top: 12px;
+  }
+
+  /* Copa Mobile */
+  .copa2022-mobile {
+    display: flex;
+  }
+
+  .copa2022-mobile > div > img {
+    height: 60px;
+  }
+
+  .copa2022 .copa2022-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copa2022 .copa2022-carousel > div {
+    max-width: 100% !important;
+  }
+
+  .copa2022 .copa2022-carousel .bg-copa {
+    width: 100% !important;
+    background-size: auto 100%;
+    padding: 1px 15px;
+  }
+
+  .copa2022 .copa2022-carousel .copa-noticias {
+    bottom: 20px;
+  }
+
+  /* Orbi-tv */
+  .orbi-tv {
+
+  }
+
+  .orbi-tv .orbi-tv-header {
+    display: block;
+  }
+
+  .orbi-tv .orbi-tv-header img {
+    height: 50px;
+  }
+
+  .orbi-tv .orbi-tv-header button {
+    height: 26px;
+    width: 64px;
+    margin-top: 20px;
+    font-size: 0.625rem;
+  }
+
+  .orbi-tv .orbi-tv-carousel {
+    width: 390px;
+  }
+  
+  .orbi-tv .cta-orbitv {
+    margin-top: 54px;
+    font-size: 0.75rem;
+  }
+
+  /* + lidas */
+  .mais-lidas .mais-lidas-content {
+    display: block;
+  }
+
+  .mais-lidas .mais-lidas-content div {
+    margin-bottom: 38px;
+  }
+
+  .cinema-mobile {
+    display: block;
+  }
+
+  /* Copa */
+  .copa2022 {
+    display: none;
+  }
+
+  /* Temperatura e Lotomania Mobile  */
+  .previsao-lotomania-mobile {
+    display: block;
+    gap: 24px;
+    width: 365px;
+    margin: 0 auto;
+  }
+
+  .previsao-lotomania-mobile .previsao-tempo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #F9F9F9;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+    padding: 15px 20px 17px;
+    width: 100%;
+  }
+
+  .previsao-lotomania-mobile .previsao-tempo div:first-child {
+    margin-bottom: 35px;
+  }
+
+  .previsao-lotomania-mobile .previsao-tempo h3 {
+    font-family: 'PacaembuBold';
+    font-size: 0.75rem;
+    color: #231F20;
+    margin-top: 5px;
+  }
+
+  .previsao-lotomania-mobile .previsao-tempo p {
+    font-family: 'PacaembuMedium';
+    font-size: 0.625rem;
+    color: #726F73;
+    margin-top: 4px;
+  }
+
+  .previsao-lotomania-mobile .previsao-tempo strong {
+    font-family: 'PacaembuBold';
+    font-size: 0.625rem;
+    color: #FFA500;
+    margin-bottom: 1px;
+  }
+
+  .previsao-lotomania-mobile .previsao-tempo span {
+    display: block;
+    font-weight: 700;
+    font-size: 1.875rem;
+    color: #231F20;
+  }
+
+  .previsao-lotomania-mobile .lotomania {
+    background-color: #fff;
+    border: 1px solid #F9F9F9;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+    padding: 20px 20px;
+    margin-bottom: 24px;
+  }
+
+  .previsao-lotomania-mobile .lotomania h2 {
+    font-family: 'PacaembuBold';
+    font-size: 0.75rem;
+    color: #726F73;
+    margin-bottom: 3px;
+  }
+
+  .previsao-lotomania-mobile .lotomania p {
+    font-family: 'PacaembuMedium';
+    font-size: 0.625rem;
+    color: #726F73;
+    opacity: .75;
+  }
+
+  .previsao-lotomania-mobile .lotomania .lotomania-carousel-content {
+    margin-top: 15px;
+  }
+
+  .previsao-lotomania-mobile .lotomania .lotomania-carousel-content ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+
+  .previsao-lotomania-mobile .lotomania .lotomania-carousel-content ul li {
+    margin-bottom: 15px;
+  }
+
+  .previsao-lotomania-mobile .lotomania .lotomania-carousel-content ul li span {
+    display: block;
+    font-family: 'PacaembuBold';
+    font-size: 0.75rem;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #F6650C;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 30px;
+  }
+
+  /* Colunas */
+  .colunas-mobile {
+    display: block;
+  }
+
+  .colunas-mobile > img {
+    height: 50px;
+    margin-bottom: 20px;
+
+  }
+
+  .colunas-mobile .colunas-content > div {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 16px;
+  }
+
+  .colunas-mobile .colunas-content > div img {
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+  }
+
+  .colunas-mobile .colunas-content > div strong {
+    font-family: 'PacaembuBold';
+    font-size: 1rem;
+    color: #231F20;
+  }
+
+  .colunas-mobile .colunas-content > div p {
+    font-size: 0.75rem;
+    color: #231F20;
+    margin-top: 8px;
+  }
+
+  .colunas-mobile .colunas-content a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #FF0A6B;
+    line-height: 40px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    color: #FF0A6B;
+    margin-top: 24px;
+  } 
+
+  .mais-lidas {
+    width: calc(100% - 40px);
+  }
+
+    /* Videos */ 
+
+  .videos .videos-header {
+    display: block;
+  }
+
+  .videos .videos-header img {
+    height: 50px;
+  }
+
+  .videos .videos-header nav ul {
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .videos .videos-header nav ul li a {
+    font-size: .688rem;
+  }
+
+  .videos .videos-content {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .videos .videos-content > div > iframe {
+    width: 365px;
+    height: 14rem;
+  }
+
+  .videos-carousel-content {
+    width: 380px;
+    height: 145px;
+  }
+
+  .videos-carousel {
+    margin-top: 39px;
+  }
+
+  .videos-carousel h3 {
+    font-size: 0.75rem;
+  }
+
+  .videos-carousel iframe {
+    width: 365px;
+    height: 145px;
+    margin-inline: 20px;
+  }
+
+  /* Newsletter Mobile */
+  section.newsletter-mobile {
+    display: block;
+  }
+
+  section.newsletter-mobile {
+    padding: 25px;
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+
+  section.newsletter-mobile h3 {
+    font-family: 'PacaembuBlack';
+    font-size: 1rem;
+    color: #231F20;
+    margin-bottom: 5px;
+  }
+
+  section.newsletter-mobile p {
+    font-family: 'PacaembuBlack';
+    font-size: 1rem;
+    color: #FF0A6B;
+  }
+
+  section.newsletter-mobile form {
+    margin-top: 36px;
+  }
+
+  section.newsletter-mobile form input[type="text"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 15.5px;
+    font-family: 'PacaembuMedium';
+    font-size: 0.625rem;
+    color: #231F20;
+  }
+
+  section.newsletter-mobile form input[type="text"]::placeholder {
+    font-family: 'PacaembuMedium';
+    font-size: 0.625rem;
+    color: #A0A0A0;
+  }
+
+  section.newsletter-mobile form input[type="checkbox"] {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  section.newsletter-mobile form label {
+    font-family: 'PacaembuMedium';
+    font-size: 0.625rem;
+    color: #5D5D5D;
+  }
+
+  section.newsletter-mobile form label a {
+    font-family: 'PacaembuBold';
+    color: #FF0A6B;
+  }
+
+  section.newsletter-mobile form button {
+    display: block;
+    margin-top: 65.5px;
+    border: 0;
+    border-radius: 20px;
+    background: #FF0A6B;
+    box-shadow: 0 5px 15px rgba(255, 10, 107, .20);
+    height: 40px;
+    width: 100px;
+    font-family: 'PacaembuBold';
+    font-size: 0.625rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  /* Copa Resumo Mobile */
+
+  section.copa-resumo-mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.copa-resumo-mobile .copa-resumo {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 20px 25px 24px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    section.copa-resumo-mobile .copa-resumo > img {
+      height: 5.625rem;
+      margin-bottom: 1rem;
+    }
+
+    section.copa-resumo-mobile .copa-resumo-content h3 {
+      font-family: 'PacaembuBold';
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 11px;
+      margin-top: 22px;
+    }
+  
+    section.copa-resumo-mobile .copa-resumo-content .copa-resumo-carousel > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 13px;
+      width: 16.188rem;
+      margin-bottom: 16px;
+    }
+
+    section.copa-resumo-mobile .copa-resumo-content .copa-resumo-carousel > div > img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  
+    section.copa-resumo-mobile .copa-resumo-content .copa-resumo-carousel > div span {
+      font-family: 'PacaembuMedium';
+      font-size: .875rem;
+      color: #343A40;
+    }
+  
+    section.copa-resumo-mobile .copa-resumo-content .copa-resumo-carousel > div strong {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      font-family: 'PacaembuUltra';
+      font-size: 1rem;
+    }
+
+    /* Orbit Mobile */
+
+    section.orbit-mobile {
+      display: flex;
+      background: url(../assets/bg-jornal.jpg) no-repeat center center;
+      background-size: 100% auto;
+      width: calc(100% - 40px);
+      border-radius: 15px;
+      padding: 24px 0 0;
+      text-align: center;
+      margin-inline: auto;
+      justify-content: center;
+    }
+
+    section.orbit-mobile img {
+      display: block;
+    }
+
+    section.orbit-mobile img:first-child {
+      margin-bottom: 17.9px;
+      margin-inline: auto;
+    }
+
+  
+
+  .colunas-newsletter {
+    display: none;
+  }
+
+  .horoscopo {
+    display: none;
+  }
+
+  .cultura {
+    display: none;
+  }
+
+  .ga-retangulo {
+    display: none;
+  }
+
+  .diversos {
+    display: none;
+  }
+
+  .quadrinhos-jornal-horoscopo {
+    display: none;
+  }
+
+  .webstories-noticiacomfoto-enquate {
+    display: none;
+  }
+
+  .noticiacomfoto-gaQuadrado-noticiadestaque-noticia-resumo {
+    display: none;
+  }
+
+  footer .footer-menu ul {
+    display: block;
+    text-align: center;
+  }
+
+  footer .footer-menu ul li {
+    margin-bottom: 18px;
+  }
+}
